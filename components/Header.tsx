@@ -25,7 +25,7 @@ export default function Header() {
     >
       <nav className="vp-nav">
         <a href="#cars" className="vp-nav-link">Cars &amp; Goods</a>
-        <a href="#how" className="vp-nav-link">How it works</a>
+        <a href="#how" className="vp-nav-link">Good to know</a>
         <a href="#request" className="vp-nav-link">Request a car</a>
       </nav>
 

@@ -21,7 +21,7 @@ export default function Footer() {
             <h4 className="vp-footer-col-title">Explore</h4>
             <ul className="vp-footer-links">
               <li><a href="#cars" className="vp-footer-link">What we source</a></li>
-              <li><a href="#how" className="vp-footer-link">How it works</a></li>
+              <li><a href="#how" className="vp-footer-link">Good to know</a></li>
               <li><a href="#request" className="vp-footer-link">Request a car</a></li>
             </ul>
           </div>

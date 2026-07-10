@@ -300,6 +300,11 @@
 }
 
 /* ===== How it works ===== */
+#cars,
+#how,
+#request {
+  scroll-margin-top: 80px;
+}
 .vp-how {
   background: var(--cream);
   border-top: 1px solid var(--border);
@@ -323,71 +328,47 @@
   font-size: 1rem;
   line-height: 1.7;
 }
-.vp-steps {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: clamp(1.5rem, 3vw, 3rem);
-  max-width: 1200px;
-  margin: 0 auto;
-}
-.vp-step-num {
-  font-family: var(--font-mono);
-  font-size: 0.9rem;
-  letter-spacing: 0.2em;
-  color: var(--clay);
-  font-weight: 700;
-}
-.vp-step-rule {
-  height: 1px;
-  background: var(--border-strong);
-  margin: 1rem 0 1.4rem;
-}
-.vp-step-title {
-  font-family: var(--font-head);
-  font-weight: 700;
-  font-size: 1.25rem;
-  margin: 0;
-}
-.vp-step-body {
-  margin-top: 0.7rem;
-  color: var(--ink-soft);
-  font-size: 0.94rem;
-  line-height: 1.7;
-}
 
 .vp-terms {
-  max-width: 1200px;
-  margin: clamp(3rem, 6vh, 4.5rem) auto 0;
-  padding: clamp(1.75rem, 4vw, 2.5rem);
+  max-width: 760px;
+  margin: 0 auto;
+  padding: clamp(1.75rem, 4vw, 2.75rem);
   background: var(--paper);
   border: 1px solid var(--border);
-}
-.vp-terms-eyebrow {
-  font-family: var(--font-mono);
-  font-size: 0.68rem;
-  letter-spacing: 0.18em;
-  text-transform: uppercase;
-  color: var(--ink-faint);
-  margin: 0 0 1.1rem;
 }
 .vp-terms-list {
   list-style: none;
   margin: 0;
   padding: 0;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 0.85rem 2.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
 }
 .vp-terms-item {
   display: flex;
   gap: 0.75rem;
-  font-size: 0.92rem;
+  font-size: 0.94rem;
   color: var(--ink-soft);
-  line-height: 1.55;
+  line-height: 1.6;
 }
 .vp-terms-bullet {
   color: var(--navy);
   font-weight: 700;
+}
+.vp-notice-label {
+  margin: 1.75rem 0 0.85rem;
+  font-weight: 700;
+  color: var(--ink);
+  font-size: 0.95rem;
+}
+.vp-notice-closing {
+  margin-top: 1.75rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border);
+  text-align: center;
+  color: var(--ink-soft);
+  font-size: 0.95rem;
+  line-height: 1.7;
 }
 
 /* ===== Request form ===== */
@@ -586,16 +567,9 @@
   .vp-cars-grid {
     grid-template-columns: repeat(2, 1fr);
   }
-  .vp-steps {
-    grid-template-columns: 1fr;
-    gap: 2.5rem;
-  }
   .vp-trust-grid {
     grid-template-columns: 1fr;
     gap: 1.75rem;
-  }
-  .vp-terms-list {
-    grid-template-columns: 1fr;
   }
   .vp-request {
     grid-template-columns: 1fr;

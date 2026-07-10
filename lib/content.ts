@@ -22,18 +22,6 @@ export const CARS: Car[] = [
   { title: "General goods & machinery", note: "Sourced to order · by request", tag: "Goods", slotId: "car-8", tone: "linear-gradient(160deg,#2a3344,#1d2533)", defaultImage: "/images/car-8-goods-machinery.jpg" },
 ];
 
-export type Step = {
-  num: string;
-  title: string;
-  body: string;
-};
-
-export const STEPS: Step[] = [
-  { num: "01", title: "Source & inspect", body: "Send a photo, model, or budget. We source and inspect before purchase." },
-  { num: "02", title: "Export & ship", body: "We handle system change, documentation and shipping, and keep you updated." },
-  { num: "03", title: "Arrive in Ghana", body: "Arrives in Ghana. Duty settled on arrival, then handed over to you." },
-];
-
 export type RequestFormState = {
   name: string;
   budget: string;
