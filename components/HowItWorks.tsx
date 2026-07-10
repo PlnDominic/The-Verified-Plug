@@ -58,7 +58,7 @@ export default function HowItWorks() {
         </ul>
 
         <p className="vp-notice-closing">
-          Thank you for your understanding and for trusting The Verified Plug 🤍
+          Thank you for your understanding and for trusting The Verified Plug
           <br />
           I&rsquo;ll attend to you shortly.
         </p>
