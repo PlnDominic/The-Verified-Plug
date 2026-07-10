@@ -1,10 +1,13 @@
 # Image credits
 
-Default photos for the image slots (used until replaced via the upload widget). All from Wikimedia Commons, used under their listed Creative Commons licenses. Resized and re-compressed for web from the originals. `hero.jpg` is additionally mirrored, cropped to a wide banner, and has its license plate blurred.
+Default photos for the image slots (used until replaced via the upload widget), resized/re-compressed for web from the originals.
+
+**`hero.jpg` is the exception to everything below**: it's official Jetour T2 marketing photography from [jetourglobal.com](https://jetourglobal.com/T2) (`/new-static/images/vehicles/image/T2.png`), © Chery/Jetour, all rights reserved — not Creative Commons. It's used here purely as an illustrative banner for a car-sourcing landing page; it is not an endorsement by or affiliation with Jetour. Swap it for a licensed or owned photo before relying on this commercially at scale, or if Jetour objects to the usage.
+
+Everything else is from Wikimedia Commons under the listed Creative Commons licenses:
 
 | File | Source | Author | License |
 |---|---|---|---|
-| `hero.jpg` | [Commons](https://commons.wikimedia.org/wiki/File:Changan_CS75_Plus_008.jpg) | Jengtingchen | CC BY-SA 4.0 |
 | `car-1-toyota-rav4.jpg` | [Commons](https://commons.wikimedia.org/wiki/File:2021_Toyota_RAV4_PHV.jpg) | TTTNIS | CC0 |
 | `car-2-honda-crv.jpg` | [Commons](https://commons.wikimedia.org/wiki/File:Honda_CR-V_(6th_generation)_hybrid_1X7A0866.jpg) | Alexander-93 | CC BY-SA 4.0 |
 | `car-3-toyota-corolla.jpg` | [Commons](https://commons.wikimedia.org/wiki/File:Toyota_Corolla_(E180)_sedan_facelift_1X7A0306.jpg) | Alexander Migl | CC BY-SA 4.0 |
