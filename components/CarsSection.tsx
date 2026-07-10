@@ -21,7 +21,7 @@ export default function CarsSection({ images }: { images: Record<string, string>
                 id={car.slotId}
                 fit="cover"
                 placeholder="Drop photo"
-                initialSrc={images[car.slotId]}
+                initialSrc={images[car.slotId] ?? car.defaultImage}
                 tone={car.tone}
               />
               <span className="vp-card-tag">{car.tag}</span>

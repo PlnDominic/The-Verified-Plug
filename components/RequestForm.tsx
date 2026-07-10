@@ -26,7 +26,7 @@ export default function RequestForm({ initialSrc }: { initialSrc?: string }) {
           id="vp-request"
           fit="cover"
           placeholder="Drop image (cars on a carrier, or a delivered vehicle)"
-          initialSrc={initialSrc}
+          initialSrc={initialSrc ?? "/images/request-car-carrier.jpg"}
           tone="linear-gradient(160deg,#e7ddcf 0%,#d8cbb8 52%,#cdbba4 100%)"
         />
       </div>

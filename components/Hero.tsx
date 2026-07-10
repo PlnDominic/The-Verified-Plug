@@ -8,7 +8,7 @@ export default function Hero({ initialSrc }: { initialSrc?: string }) {
           id="vp-hero"
           fit="cover"
           placeholder="Drop hero image (a shipping yard of cars, or a hero vehicle)"
-          initialSrc={initialSrc}
+          initialSrc={initialSrc ?? "/images/hero.jpg"}
           tone="linear-gradient(155deg,#2a3344 0%,#1d2533 60%,#16181f 100%)"
         />
       </div>
