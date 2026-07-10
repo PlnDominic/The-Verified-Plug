@@ -1,10 +1,10 @@
 # Image credits
 
-Default photos for the image slots (used until replaced via the upload widget). All from Wikimedia Commons, used under their listed Creative Commons licenses. Resized and re-compressed for web from the originals.
+Default photos for the image slots (used until replaced via the upload widget). All from Wikimedia Commons, used under their listed Creative Commons licenses. Resized and re-compressed for web from the originals. `hero.jpg` is additionally mirrored, cropped to a wide banner, and has its license plate blurred.
 
 | File | Source | Author | License |
 |---|---|---|---|
-| `hero.jpg` | [Commons](https://commons.wikimedia.org/wiki/File:Container_cranes_at_the_MPET-_MSC_PSA_European_Terminal_in_Port_of_Antwerp_(Kieldrecht,_Belgium)_during_the_sunset_civil_twilight_(DSCF3901).jpg) | Trougnouf | CC BY 4.0 |
+| `hero.jpg` | [Commons](https://commons.wikimedia.org/wiki/File:Changan_CS75_Plus_008.jpg) | Jengtingchen | CC BY-SA 4.0 |
 | `car-1-toyota-rav4.jpg` | [Commons](https://commons.wikimedia.org/wiki/File:2021_Toyota_RAV4_PHV.jpg) | TTTNIS | CC0 |
 | `car-2-honda-crv.jpg` | [Commons](https://commons.wikimedia.org/wiki/File:Honda_CR-V_(6th_generation)_hybrid_1X7A0866.jpg) | Alexander-93 | CC BY-SA 4.0 |
 | `car-3-toyota-corolla.jpg` | [Commons](https://commons.wikimedia.org/wiki/File:Toyota_Corolla_(E180)_sedan_facelift_1X7A0306.jpg) | Alexander Migl | CC BY-SA 4.0 |
