@@ -1,0 +1,150 @@
+:root {
+  --ink: #16181f;
+  --ink-soft: #4c515d;
+  --ink-faint: #8a8e98;
+  --navy: #2a3344;
+  --navy-press: #1d2533;
+  --paper: #ffffff;
+  --cream: #faf8f4;
+  --border: #e7e5e0;
+  --border-strong: #d9d6cf;
+  --sand: #f1ece3;
+  --sand-deep: #d8cbb8;
+  --clay: #cdbba4;
+
+  --font-body: var(--font-assistant), system-ui, sans-serif;
+  --font-head: var(--font-merriweather-sans), sans-serif;
+  --font-mono: var(--font-anonymous-pro), monospace;
+
+  --ease: cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+}
+
+body {
+  font-family: var(--font-body);
+  color: var(--ink);
+  background: var(--paper);
+  line-height: 1.65;
+  font-size: 15px;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+a {
+  color: var(--navy);
+  text-decoration: none;
+}
+a:hover {
+  color: var(--navy-press);
+}
+
+input,
+textarea,
+select,
+button {
+  font-family: inherit;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  font: inherit;
+}
+
+::placeholder {
+  color: var(--ink-faint);
+}
+
+/* Scroll-reveal: elements fade/rise into place once observed */
+.vp-reveal {
+  opacity: 0;
+  transform: translateY(18px);
+  transition:
+    opacity 0.6s var(--ease),
+    transform 0.6s var(--ease);
+}
+.vp-in {
+  opacity: 1 !important;
+  transform: none !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .vp-reveal {
+    transition: none;
+  }
+}
+
+/* ImageSlot upload widget */
+.vp-slot {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.vp-slot-overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  text-align: center;
+  padding: 1rem;
+  border: 1.5px dashed rgba(0, 0, 0, 0.25);
+  transition:
+    opacity 0.15s,
+    border-color 0.15s,
+    background 0.15s;
+}
+
+.vp-slot-overlay.is-empty {
+  color: rgba(255, 255, 255, 0.88);
+}
+
+.vp-slot-overlay.is-filled {
+  color: var(--ink);
+  opacity: 0;
+  background: transparent;
+}
+
+.vp-slot:hover .vp-slot-overlay.is-filled,
+.vp-slot:focus-visible .vp-slot-overlay.is-filled {
+  opacity: 1;
+  background: rgba(255, 255, 255, 0.55);
+}
+
+.vp-slot-overlay.is-dragging {
+  border-color: var(--navy) !important;
+  opacity: 1 !important;
+  background: rgba(255, 255, 255, 0.55);
+}
+
+.vp-slot-overlay svg {
+  opacity: 0.55;
+}
+
+.vp-slot-caption {
+  font-family: var(--font-mono);
+  font-size: 0.62rem;
+  letter-spacing: 0.06em;
+  line-height: 1.5;
+}
+
+.vp-slot-error {
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
+  color: #c96442;
+}
