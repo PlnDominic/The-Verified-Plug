@@ -24,6 +24,8 @@ Photos are dropped or clicked onto an `ImageSlot`, uploaded to `/api/upload`, an
 
 This keeps uploads working immediately in both `next dev` and a production `next build && next start`, with no restart required. It assumes a server with a persistent local filesystem (e.g. a VPS, `next start` on a long-lived container). It will **not** persist uploads on serverless platforms with an ephemeral filesystem (e.g. Vercel) — swap in object storage (S3, R2, etc.) if deploying there.
 
+Every slot ships with a default photo (`public/images/`, credited in `public/images/CREDITS.md`) so the page looks finished before any upload happens. Dropping a new photo onto a slot replaces the default for that slot.
+
 ## Editorial notes
 
 No em dashes anywhere in this project's copy. Keep copy concise, short direct sentences over long descriptive ones.
